@@ -6,7 +6,6 @@ main(I,0,'b');
 main(I,1,'m');
 
 
-% TODO: テスト。後で消す。
 % メイン関数。これを呼び出すだけで次に置ける場所などの情報をすべて出力できる。
 function V=main(I,judge,color)
 figure; imshow(I,"InitialMagnification",'fit')
