@@ -93,7 +93,7 @@ V=viscircles(centnew, radnew,'Color',color);
         count_search=0;
         while j>1 || j<10 
             count_search=count_search+1;
-            if A(i+i_plus,j+j_plus)==2 || A(i+i_plus,j+j_plus)==100 || A(i+i_plus,j+j_plus)==3 || tf==true
+            if A(i+i_plus,j+j_plus)==2 || A(i+i_plus,j+j_plus)==100 || tf==true
                 break
             elseif A(i+i_plus,j+j_plus)==judge
                 tf=true;
